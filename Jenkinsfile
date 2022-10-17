@@ -14,7 +14,7 @@ pipeline{
             steps{
                 sh'''
                 cd moon
-                mvn compile
+                mvn clean
                 '''
             }
         }
